@@ -21,10 +21,6 @@ from app1 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-<<<<<<< HEAD
     path('link/',views.link1),
-=======
-    path('link/',views.link),
->>>>>>> 11ee8c6f1c705779ba43ce0571d2ce6c49471f02
 ]
 
